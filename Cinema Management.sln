@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema Management", "Cinema Management.csproj", "{6301322C-7398-4500-9806-AF95253EDBE9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "cinema management system", "..\cinema management system\cinema management system.vdproj", "{DE3B7234-8C1B-401D-9915-B725B462A0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6301322C-7398-4500-9806-AF95253EDBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6301322C-7398-4500-9806-AF95253EDBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6301322C-7398-4500-9806-AF95253EDBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6301322C-7398-4500-9806-AF95253EDBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3B7234-8C1B-401D-9915-B725B462A0CE}.Debug|Any CPU.ActiveCfg = Debug
+		{DE3B7234-8C1B-401D-9915-B725B462A0CE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B5A6D58-813A-4C1B-B391-229E30EE9AC0}
+	EndGlobalSection
+EndGlobal

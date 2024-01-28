@@ -1,0 +1,19 @@
+namespace Cinema_Management
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            string conString = @"Data Source=DESKTOP-NFCDOBH\SQLEXPRESS;Initial Catalog=cinema management;Integrated Security=True;Connect Timeout=30";
+
+            ApplicationConfiguration.Initialize();
+            Application.Run(new LoginForm(conString));
+        }
+    }
+}
